@@ -1,3 +1,5 @@
+Ideas came from: https://www.quantifiedstrategies.com/quantitative-trading-strategies/
+
 # Russel (2000) rebalancing strategy:
 ## Basic Knowledge:
 罗素3000指数（指数代号：RUA）是一个资本加权的股票市场指数，旨在于成为整个美国股票市场的基准。它包括了在美国注册的总市值最大的3,000家上市公司，约占美国公共股票市场的 97%.
