@@ -1,4 +1,5 @@
 Ideas came from: https://www.quantifiedstrategies.com/quantitative-trading-strategies/
+  
 The code provides visualization results
 
 # Russel (2000) rebalancing strategy:
