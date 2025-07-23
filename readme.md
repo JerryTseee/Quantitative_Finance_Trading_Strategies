@@ -98,3 +98,9 @@ stocks (S&P 500), bonds, and gold
 月末效应（又称 Ultimo 效应）是股市中一种著名的交易策略。我们曾经介绍过这种反常现象。也许鲜为人知的是，这种效应会蔓延到下个月的前三天。因此，更正确的名称可能是月轮策略（或月轮效应）。
 
 月度转折策略在大多数市场中都表现出色，尽管暴露时间较短，但经常战胜买入并持有策略。我们在当月倒数第五个交易日收盘时做多，七天后退出，即在下个月第三个交易日收盘时退出。
+
+
+
+# Stock prediction using LSTM (time series analysis)
+## concept
+LSTM (Long Short-Term Memory) networks are particularly well-suited for stock price prediction because they are designed to capture long-term dependencies and patterns in sequential data. Unlike traditional models, LSTM can remember information over many time steps and selectively retain or forget past data using its gating mechanism, making it effective in identifying trends, cycles, and nonlinear relationships in stock prices. This ability to model complex temporal dynamics allows LSTM to learn from historical price movements and other market indicators, even in the presence of noise and volatility, which are common in financial data.
