@@ -1,5 +1,5 @@
 def main(csv_path="stock_dataset.csv"):
-
+    # current model architecture predicts only one day ahead at a time
     import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
