@@ -125,5 +125,15 @@ def main(csv_path="stock_dataset.csv"):
     final_mse = mean_squared_error(y_test_unscaled, final_pred_unscaled)
     print(f"✅ Best Model Final Test MSE: {final_mse:.4f}")
 
+    # start to predict the future one day using previous 60 days
+    last_60_days = scaled_price[-60:]
+    input_seq = torch.tensor(last_60_days.reshape(1, -1, 1), dtype=torch.float32).to(device)
+    model.eval()
+    with torch.no_grad():
+        next_day_pred = model(input_seq).cpu().numpy()
+    
+    next_day_pred_unscaled = scaler.inverse_transform(next_day_pred)
+    print(f"📈 Predicted Next Day Closing Price: {next_day_pred_unscaled[0, 0]:.2f}")
+
 if __name__ == "__main__":
     main()
