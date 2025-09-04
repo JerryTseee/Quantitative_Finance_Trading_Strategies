@@ -104,3 +104,7 @@ stocks (S&P 500), bonds, and gold
 # Stock prediction using LSTM (time series analysis)
 ## concept
 LSTM (Long Short-Term Memory) networks are particularly well-suited for stock price prediction because they are designed to capture long-term dependencies and patterns in sequential data. Unlike traditional models, LSTM can remember information over many time steps and selectively retain or forget past data using its gating mechanism, making it effective in identifying trends, cycles, and nonlinear relationships in stock prices. This ability to model complex temporal dynamics allows LSTM to learn from historical price movements and other market indicators, even in the presence of noise and volatility, which are common in financial data.
+
+# GAN for Stock Prediction
+idea: https://github.com/hungchun-lin/Stock-price-prediction-using-GAN.git
+using GAN to predict the future stock, the generator is the LSTM.
